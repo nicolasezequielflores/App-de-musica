@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.listContainer{
+    width: 100%;
+    min-height: 100vh;
+    background: #813737;
+    overflow: hidden;
+    display: grid;
+    align-items: center;
+    padding: 30px;
+}
+
+.principal{
+    width: 100%;
+    height: 800px;
+}
+.listaCanciones{
+    width: 100%;
+    height: 500px;
+    border-radius: 50px;
+    background: #813737;
+    box-shadow:  20px 20px 60px #6e2f2f,
+    -20px -20px 60px #943f3f;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.canc{
+    padding: 10px 30px;
+    background: #813737;
+    box-shadow:  20px 20px 60px #6e2f2f,
+    -20px -20px 60px #943f3f;
+    border-radius: 50px;
+    font-weight: 100;
+    color: rgb(194, 177, 177);
+}
+
+.botones{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+}
+
+.volver{
+    width: 40px;
+    height: 40px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    background: #813737;
+    box-shadow:  20px 20px 60px #6e2f2f,
+                -20px -20px 60px #943f3f;
+    color: rgb(194, 177, 177);
+}
+
+.volver:active{
+    background: #813737;
+    box-shadow: inset 20px 20px 60px #6e2f2f,
+            inset -20px -20px 60px #943f3f;
+}
