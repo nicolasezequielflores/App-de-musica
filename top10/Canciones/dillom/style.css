@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background: #e0e0e0;
+}
+
+.musiContainer{
+    width: 100%;
+    height: 100vh;
+    padding: 30px 30px;
+    background: #e0e0e0;
+}
+
+.botones{
+    width: 100%;
+    height: 10vh;
+    background: #e0e0e0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.iconAtras{
+    width: 50px;
+    height: 50px;
+    color: black;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe,
+                -20px -20px 60px #ffffff;
+}
+
+.iconAtras:active{
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow:  20px 20px 60px #bebebe,
+                -20px -20px 60px #ffffff;
+}
+
+.namePrin{
+    width: 70px;
+    height: 70px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    border-radius: 50px;
+    color: rgb(0, 0, 0);
+    box-shadow:  20px 20px 60px #bebebe,
+    -20px -20px 60px #ffffff;
+    font-weight: 500;
+}
+
+.img{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgCont{
+    width: 100%;
+    height: 500px;
+    /* background-image: url(/Nico/img/mc-miller.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:bottom;
+    -moz-box-shadow: 10px 10px 51px -7px rgba(0,0,0,0.54);
+    box-shadow: 10px 10px 51px -7px rgba(0,0,0,0.54);
+    overflow: hidden; */
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe,
+            -20px -20px 60px #ffffff;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.name{
+    margin: -40px 0 0 0;
+    padding: 20px;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+
+
+.btns{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnPlay{
+    width: 50px;
+    height: 50px;
+    background-image: url(./img/icons8-play-90\(-xxhdpi\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+    margin: 0 -5px 0 0;
+    position: fixed;
+    z-index: 10;
+}
+
+.btnPause{
+    width: 10px;
+    height: 10px;
+    background-image: url(./img/icons8-pausa-en-círculo-100.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.hidden{
+    display: none;
+}
+
+.ver{
+    display: flex;
+}
+
+.tamReal{
+    width: 50px;
+    height: 50px;
+}
+
+#audio {
+    display: none;
+    width: 100%;
+}
+
+.progress-bar {
+    background-color: #eee;
+    height: 10px;
+    width: 100%;
+    border-radius: 50px;
+    
+}
+
+.progress {
+    background-color: #000000;
+    height: 100%;
+    width: 0%;
+    border-radius: 50px;
+}
+
+.darkMode{
+    background: #242424;
+}
